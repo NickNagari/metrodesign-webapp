@@ -1,0 +1,48 @@
+.App {
+  text-align: center;
+}
+
+.logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.logo-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.images-container {
+  display: grid;
+  text-align: center;
+}
+
+/* General layout for About page */
+.page-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+/* Styling the header section */
+.header-container {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #052c4b; /* Dark blue */
+  margin-top: 5%;
+  margin-bottom: 20px; /* Space below the header */
+}
+
+.text-container {
+  max-width: 800px;
+  width: 100%;
+  padding: 20px;
+  color: #333; /* Dark text color for readability */
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
