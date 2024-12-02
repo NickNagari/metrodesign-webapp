@@ -21,12 +21,13 @@ const ImageGallery = () => {
       <Grid2
         container
         spacing={2}
+        sx={{ px: 2 }}
       >
         {imagePaths.map((src, index) => (
           <Grid2
             item
             key={index}
-            size={[6,6,4]}
+            size={[12,6,4]}
           >
             <Box
               component="img"
