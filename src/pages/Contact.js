@@ -6,7 +6,7 @@ function Contact() {
       <div className="header-container">Contact</div>
       <div className="text-container">
         Please reach out to us at{' '}
-        <a href="info@metrodesign.us">info@metrodesign.us</a>
+        <a href="mailto:info@metrodesign.us">info@metrodesign.us</a>
       </div>
     </div>
   );

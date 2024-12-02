@@ -1,4 +1,5 @@
 import '../App.css';
+import ImageGallery from "../components/Gallery"
 
 function Home() {
   return (
@@ -10,7 +11,7 @@ function Home() {
           alt="metrodesign logo"
         />
       </div>
-      <div className="images-container"></div>
+      <ImageGallery />
     </>
   );
 }
